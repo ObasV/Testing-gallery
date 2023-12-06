@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Press the buttons and see the pictures take their turns</h1>
+    <div class="sliders">
+        <button class="next" onclick="foward()"></button>
+
+        <div class="display">
+            <h2 id = "guide">Pictures would be displayed here</h2>
+            <img id="display" src="./images/image 1.jpg">
+        </div>
+
+        <button class="previous" onclick="backward()"></button>
+
+    </div>
+
+<section>
+
+    <h2 onclick="restore_gallery()" id = 'gallery_caption'>Click on each picture and see them come on stage</h2>
+
+    <div class="carousel" >
+        <img class="img1" id="pix1" src="./images/image 1.jpg" onclick="paste_picture(0)">
+        <img class="img2" id="pix2" src="./images/image 2.jpg" onclick="paste_picture(1)">
+        <img class="img3" id="pix3" src="./images/image 3.jpg" onclick="paste_picture(2)">
+        <img class="img4" id="pix4" src="./images/image 4.jpg" onclick="paste_picture(3)">
+        <img class="img5" id="pix5" src="./images/image 5.jpg" onclick="paste_picture(4)">
+        <img class="img6" id="pix6" src="./images/image 6.jpg" onclick="paste_picture(5)">
+
+    </div>
+
+</section>
+
+
+
+    <script src='script.js'></script>
+</body>
+
+</html>
