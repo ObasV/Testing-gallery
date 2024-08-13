@@ -17,9 +17,8 @@ function foward() {
    if (pix < 6) {
       guide.style.display = 'none'
       img.style.display = 'flex'
-      show = pictures[pix]
-      img.src = show
-      console.log(pictures[pix])
+      // show = pictures[pix]
+      img.src = pictures[pix]
       pix += 1
 
    }
