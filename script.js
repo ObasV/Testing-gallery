@@ -39,7 +39,7 @@ function backward() {
       if (pix == undefined|pix==-1 ){ pix = 5}
       show = pictures[pix]
       img.src = show
-      console.log(pictures[pix]);
+      // console.log(pictures[pix]);
       pix -= 1
    }
    else {
@@ -55,7 +55,7 @@ function paste_picture(state){
    pix = state
    show = pictures[pix]
    img.src = show
-   console.log(pictures[pix])
+   // console.log(pictures[pix])
 }
 
 function restore_gallery(){
